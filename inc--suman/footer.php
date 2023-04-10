@@ -2,11 +2,11 @@
 
 </footer>
 
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery.slimNav_sk78.min.js"></script>
-<script src="js/owl.carousel.js"></script>
-<script src="../js/script.js"></script>
+<script src="js--suman/bootstrap.min.js"></script>
+<script src="js--suman/jquery.min.js"></script>
+<script src="js--suman/jquery.slimNav_sk78.min.js"></script>
+<script src="js--suman/owl.carousel.js"></script>
+<script src="../js--suman/script.js"></script>
 <script>
 $(document).ready(function() {
     $('.car-slide').owlCarousel({
