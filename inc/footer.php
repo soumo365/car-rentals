@@ -5,8 +5,8 @@
 <script src="../js/bootstrap.min.js"></script>
 <script src="../js/jquery.min.js"></script>
 <script src="../js/jquery.slimNav_sk78.min.js"></script>
-<script src="../js/script.js"></script>
 <script src="../js/owl.carousel.js"></script>
+<script src="../js/script.js"></script>
 <script>
 $('.car-slide').owlCarousel({
     loop: true,
