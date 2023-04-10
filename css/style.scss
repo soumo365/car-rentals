@@ -1,5 +1,5 @@
 /** @format */
-
+@import url(../fonts/fonts.css);
 // variables
 :root {
   --primary-clr: #cfad65;
@@ -37,8 +37,17 @@ body {
   line-height: 1.2;
   background-color: var(--default-white);
   color: var(--head-clr);
+  font-family: 'THICCCBOI';
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'THICCCBOI';
+  font-weight: bold;
+}
 ul {
   padding: 0;
   margin: 0;
@@ -73,7 +82,9 @@ iframe {
   line-height: 106.3%;
   color: var(--default-white);
 }
-
+.heading-secondary-font {
+  font-family: 'Hellix';
+}
 .text-primary {
   font-weight: 500;
   font-size: $fs-24;
@@ -153,6 +164,9 @@ iframe {
 }
 
 section.car-slider {
+  h3 {
+    margin-bottom: 40px;
+  }
   .car-slide {
   }
 }

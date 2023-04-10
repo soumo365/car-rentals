@@ -8,7 +8,11 @@
             <div class="col-lg-12">
                 <div class="car-slide owl-carousel owl-theme">
                     <div class="item">
-                        <h4>1</h4>
+                        <div class="car-card">
+                            <figure>
+                                <img src="img/card-img1.jpg" alt="">
+                            </figure>
+                        </div>
                     </div>
                     <div class="item">
                         <h4>2</h4>
