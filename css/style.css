@@ -1,6 +1,4 @@
 /** @format */
-
-// variables
 :root {
   --primary-clr: #cfad65;
   --secondary-clr: #ffffff;
@@ -15,24 +13,9 @@
   --default-white: #ffffff;
   --faq-text: #182a40;
 }
-$fs-50: 3.125rem;
-$fs-55: 3.4375rem;
-$fs-85: 5.3125rem;
-$fs-40: 2.5rem;
-$fs-32: 2rem;
-$fs-35: 35px;
-$fs-30: 1.875rem;
-$fs-16: 1rem;
-$fs-18: 1.125rem;
-$fs-36: 2.25rem;
-$fs-26: 1.625rem;
-$fs-20: 1.25rem;
-$fs-24: 1.5rem;
-$fs-22: 1.375rem;
 
-// Globals styles
 body {
-  font-size: $fs-16;
+  font-size: 1rem;
   font-weight: 300;
   line-height: 1.2;
   background-color: var(--default-white);
@@ -42,17 +25,18 @@ body {
 ul {
   padding: 0;
   margin: 0;
-  li {
-    list-style: none;
-  }
 }
+ul li {
+  list-style: none;
+}
+
 a {
   display: inline-block;
   text-decoration: none;
   color: #000;
-  &:hover {
-    color: #000;
-  }
+}
+a:hover {
+  color: #000;
 }
 
 img,
@@ -66,90 +50,98 @@ iframe {
 
 .heading-primary {
   font-weight: 700;
-  font-size: $fs-85;
+  font-size: 5.3125rem;
   line-height: 106.3%;
   color: var(--default-white);
 }
 
 .text-primary {
   font-weight: 500;
-  font-size: $fs-24;
+  font-size: 1.5rem;
   line-height: 35px;
   color: var(--default-white);
 }
+
 .default-btn {
   border-radius: 6px;
   font-weight: 600;
-  font-size: $fs-22;
+  font-size: 1.375rem;
   line-height: 35px;
   padding: 18px 60px;
 }
+
 .card-btn {
   font-weight: 600;
-  font-size: $fs-20;
+  font-size: 1.25rem;
   line-height: 35px;
   padding: 12px 35px;
 }
+
 .card-btn-primary {
   color: var(--default-white);
   background-color: var(--primary-clr);
 }
+
 .card-btn-secondary {
   color: var(--default-white);
   background-color: var(--head-clr);
 }
+
 .card-btn-tertiary {
   color: var(--default-white);
   background: var(--primary-gradient);
 }
+
 .primary-btn {
   background: var(--primary-clr);
   color: var(--default-white);
 }
+
 .seconday-btn {
   color: var(--head-clr);
   background: var(--default-white);
 }
+
 .head-sub {
   font-weight: 700;
-  font-size: $fs-22;
+  font-size: 1.375rem;
   line-height: 35px;
   leading-trim: both;
   text-edge: cap;
   color: var(--primary-clr);
 }
+
 .heading-secondary {
   font-weight: 700;
-  font-size: $fs-50;
+  font-size: 3.125rem;
   line-height: 106.3%;
   color: var(--head-clr);
 }
+
 .heading-tertiary {
   font-weight: 700;
-  font-size: $fs-55;
+  font-size: 3.4375rem;
   line-height: 139%;
   color: var(--head-clr);
 }
+
 .para {
   font-weight: 500;
-  font-size: $fs-18;
+  font-size: 1.125rem;
   line-height: 35px;
   color: var(--text-clr);
 }
+
 .card-head {
   font-weight: 700;
-  font-size: $fs-36;
+  font-size: 2.25rem;
   line-height: 106.3%;
   color: var(--head-clr);
 }
+
 .card-text {
   font-weight: 500;
-  font-size: $fs-16;
+  font-size: 1rem;
   line-height: 150%;
   color: var(--text-clr);
-}
-
-section.car-slider {
-  .car-slide {
-  }
-}
+}/*# sourceMappingURL=style.css.map */
