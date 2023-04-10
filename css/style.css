@@ -48,6 +48,10 @@ iframe {
   max-width: 100%;
 }
 
+.container {
+  width: min(102.5rem, 95%);
+}
+
 .heading-primary {
   font-weight: 700;
   font-size: 5.3125rem;
